@@ -206,17 +206,17 @@ setLogin(null);
 
   <div className="largeBoxElement">
       <p>Email</p>
-      <p>{email}<span>E</span></p>
+      <p>{email}</p>
   </div>
 
   <div className="largeBoxElement">
       <p>Location</p>
-      <p>{location}<span>E</span></p>
+      <p>{location}</p>
   </div>
 
   <div className="largeBoxElement">
       <p>Twitter</p>
-      <p>{twitter_username}<span>E</span></p>
+      <p>{twitter_username}</p>
   </div>
 
 
@@ -228,17 +228,17 @@ setLogin(null);
 <div className="largeBoxElement">
 
       <p>Organization</p>
-      <p>{company}<span>E</span></p>
+      <p>{company}</p>
   </div>
 
   <div className="largeBoxElement">
       <p>Joined Date</p>
-      <p>{created_at}<span>E</span></p>
+      <p>{created_at}</p>
   </div>
 
   <div className="largeBoxElement">
       <p>Website</p>
-      <p>{blog}<span>E</span></p>
+      <p>{blog}</p>
   </div>
 
 
@@ -269,40 +269,10 @@ setLogin(null);
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-      
-      
-      </>): null}
-
-
-  
-
-
-
  
-
-
-        </div>
+  </>): null}
+  
+  </div>
    
   );
 }
